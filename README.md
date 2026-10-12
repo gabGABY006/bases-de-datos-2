@@ -55,4 +55,15 @@ decisiones, resultados y conclusiones) vive en mi
 
 ## 🚀 Cómo ejecutar los scripts
 
-1. 🔌 Conéctate a tu esquema en SQL
+1. 🔌 Conéctate a tu esquema en SQL Developer o DBeaver
+2. 📣 Para PL/SQL, ejecuta primero `SET SERVEROUTPUT ON`
+3. 📂 Abre el `.sql` y ejecútalo como script (`F5`)
+
+---
+
+<div align="center">
+
+Hecho con 💗 y mucho café por **Gabriella Castro**
+*Estudiante de Ingeniería de Sistemas · UX/UI enthusiast*
+
+</div>
