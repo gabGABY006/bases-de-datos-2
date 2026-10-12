@@ -41,15 +41,26 @@ decisiones, resultados y conclusiones) vive en mi
 | Script | Qué trabajé |
 |:---|:---|
 | 🧱 [`script1_plsql_tipos_de_datos.sql`](script1_plsql_tipos_de_datos.sql) | Bloques anónimos, `%TYPE` y `%ROWTYPE` |
+| 📦 [`TALLER_PLSQL_GRUPO_8.sql`](TALLER_PLSQL_GRUPO_8.sql) | Taller integrador de inventario y ventas: procedimientos, funciones, cursores, excepciones, triggers y el paquete `PKG_VENTAS` (trabajo en equipo) |
+
+📄 Evidencias del taller (capturas de ejecución): [`TALLER_PLSQL_GRUPO_8.pdf`](TALLER_PLSQL_GRUPO_8.pdf)
 
 ---
 
 ## 🎀 Lo que he aprendido hasta ahora
 
+### 🌷 SQL avanzado
 - 🔒 **Concurrencia:** actualizaciones perdidas, bloqueo pesimista y optimista, `SKIP LOCKED` e interbloqueos
 - ⚡ **Rendimiento:** planes de ejecución, índices compuestos y consultas sargables
 - 📊 **SQL avanzado:** funciones de ventana, CTEs recursivas, `MERGE` y `PIVOT`
-- 🧩 **PL/SQL:** estructura de bloques y declaración de variables
+
+### 🌼 PL/SQL
+- 🧩 **Bloques y tipos:** estructura `DECLARE / BEGIN / EXCEPTION / END`, `%TYPE` y `%ROWTYPE`
+- ⚙️ **Procedimientos y funciones:** parámetros de entrada y salida, y lógica de negocio dentro de la base de datos
+- 🔁 **Cursores:** explícitos, parametrizados, `FOR UPDATE`, `SYS_REFCURSOR`, `BULK COLLECT` y `FORALL`
+- 🚨 **Excepciones:** errores propios con `RAISE_APPLICATION_ERROR` y registro de errores en una tabla de log
+- 🎯 **Triggers:** auditoría, validaciones, actualización automática de stock y totales, y `INSTEAD OF` sobre vistas
+- 📦 **Paquetes y transacciones:** `PKG_VENTAS` y `SAVEPOINT` para deshacer una facturación si algo falla
 
 ---
 
@@ -58,6 +69,7 @@ decisiones, resultados y conclusiones) vive en mi
 1. 🔌 Conéctate a tu esquema en SQL Developer o DBeaver
 2. 📣 Para PL/SQL, ejecuta primero `SET SERVEROUTPUT ON`
 3. 📂 Abre el `.sql` y ejecútalo como script (`F5`)
+4. 🏗️ Para el taller del Grupo 8, primero hay que crear el esquema de inventario que entrega el docente
 
 ---
 
